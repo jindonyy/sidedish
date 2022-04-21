@@ -1,16 +1,16 @@
-import React from "react";
-import "../App.css";
-import styled from "styled-components";
-import Text from "../components/Text";
-import MoreButton from "../components/MoreButton";
-import Tag from "../components/Tag";
-import TabButton from "../components/TabButton";
+import React from 'react';
+import '../App.css';
+import styled from 'styled-components';
+import Text from '../components/Text';
+import MoreButton from '../components/MoreButton';
+import Tag from '../components/Tag';
+import TabButton from '../components/TabButton';
 
 const TemplateTitle = styled.h3({
-  "font-size": "20px",
+  'font-size': '20px',
 });
 
-function Template() {
+export default function Template() {
   return (
     <div className="Template">
       <TemplateTitle>LOGOTYPE</TemplateTitle>
@@ -22,19 +22,9 @@ function Template() {
       <br />
       <Text size="MEDIUM" color="BLACK" value="맛있는 반찬을 배달해드립니다." />
       <br />
-      <Text
-        size="LARGE"
-        weight="MEDIUM"
-        color="BLACK"
-        value="맛있는 반찬을 배달해드립니다."
-      />
+      <Text size="LARGE" weight="MEDIUM" color="BLACK" value="맛있는 반찬을 배달해드립니다." />
       <br />
-      <Text
-        size="X_LARGE"
-        weight="BOLD"
-        color="BLACK"
-        value="맛있는 반찬을 배달해드립니다."
-      />
+      <Text size="X_LARGE" weight="BOLD" color="BLACK" value="맛있는 반찬을 배달해드립니다." />
       <br />
       <TemplateTitle>COLORS</TemplateTitle>
       <Text size="BASE" color="BLACK" value="맛있는 반찬을 배달해드립니다." />
@@ -47,11 +37,7 @@ function Template() {
       <br />
       <Text size="BASE" color="GREY4" value="맛있는 반찬을 배달해드립니다." />
       <br />
-      <Text
-        size="BASE"
-        color="OFF_WHITE"
-        value="맛있는 반찬을 배달해드립니다."
-      />
+      <Text size="BASE" color="OFF_WHITE" value="맛있는 반찬을 배달해드립니다." />
       <TemplateTitle>LABELS</TemplateTitle>
       <Tag type="이벤트특가" />
       <Tag type="런칭특가" />
@@ -61,5 +47,3 @@ function Template() {
     </div>
   );
 }
-
-export default Template;
