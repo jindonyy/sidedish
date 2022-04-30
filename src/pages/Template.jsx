@@ -106,7 +106,7 @@ export default function Template() {
           <TemplateSubTitle>Large</TemplateSubTitle>
           <Card
             size="LARGE"
-            imageURL="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
+            image="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
             title="오리 주물럭_반조리"
             desc="감질맛 나는 매콤한 양념"
             curPrice="12,640원"
@@ -118,7 +118,7 @@ export default function Template() {
           <TemplateSubTitle>Medium</TemplateSubTitle>
           <Card
             size="MEDIUM"
-            imageURL="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
+            image="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
             title="오리 주물럭_반조리"
             desc="감질맛 나는 매콤한 양념"
             curPrice="12,640원"
@@ -130,7 +130,7 @@ export default function Template() {
           <TemplateSubTitle>Small</TemplateSubTitle>
           <Card
             size="SMALL"
-            imageURL="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
+            image="http://public.codesquad.kr/jk/storeapp/data/main/1155_ZIP_P_0081_T.jpg"
             title="오리 주물럭_반조리"
             desc="감질맛 나는 매콤한 양념"
             curPrice="12,640원"

@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
-import Sidedish from 'Sidedish';
+import Sidedish from 'pages/Sidedish';
 import { ThemeProvider } from 'styled-components';
-import Template from 'template/Template';
+import Template from 'pages/Template';
 import theme from 'variable/theme';
 
 export default function App() {

@@ -1,9 +1,9 @@
+import React, { useState } from 'react';
+import styled from 'styled-components';
 import Header from 'components/Header/Header';
 import MainCategory from 'components/MainCategory/MainCategory';
 import MenuSection from 'components/MenuSection/MenuSection';
 import MoreButton from 'components/MoreButton';
-import React, { useState } from 'react';
-import styled from 'styled-components';
 import Modal from 'components/Modal/Modal';
 
 const sectionTitles = [
